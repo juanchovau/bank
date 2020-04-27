@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#home {
+  background-image: url("../images/header.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+#Sec1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 4rem;
+  margin-left: 45rem;
+}
+#Sec2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 12rem;
+  margin-left: 15rem;
+}
+#Sec3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+#botones {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+#btn1 {
+  font-family: "Rosario", sans-serif;
+  width: 288px;
+  height: 69px;
+  font-size: 36px;
+  margin: 10px;
+  border: #235093 solid 4px;
+  color: #235093;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#btn2 {
+  font-family: "Rosario", sans-serif;
+  width: 288px;
+  height: 69px;
+  font-size: 36px;
+  margin: 10px;
+  border: #235093 solid 4px;
+  color: white;
+  background-color: rgba(35, 80, 147, 0.5);
+}
+/*----Página login----*/
+#login {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+}
+#imgLogin {
+  background-image: url("../images/login.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 481px;
+  height: 721px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 1rem;
+  margin-left: 16rem;
+  display: grid;
+}
+#imgLogin :nth-child(1){
+    margin-top: 10rem;
+    margin-left: 17rem;
+}
+#imgLogin :nth-child(2){
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+#login-logopq { 
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 1rem;
+    margin-left: 27rem;
+}
+#formularioLogin{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 7rem;
+   
+}
+
+#formularioLogin p{
+    font-family: "Rosario", sans-serif;
+    font-size: 85px;
+    color: #50555C;
+}
+#inputlogin{
+    margin-top: 5rem;
+    padding-right: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+#inputlogin input{
+    margin-top: 2rem;
+    height: 42px;
+    border-bottom: solid #18A0FB 4px ;
+    color: #50555C;
+    font-family: "Rosario", sans-serif;
+    font-size: 36px;
+}
+#inputlogin input::placeholder{
+   color: #50555C;
+   font-family: "Rosario", sans-serif;
+   font-size: 36px;
+}
+
+#inputlogin button{
+    color:white;
+    font-family: "Rosario", sans-serif;
+    font-size: 36px;
+    background: #235093;
+    width: 288px;
+    height: 69px;
+    margin-top: 4rem;
+    margin-left: auto;
+ }
