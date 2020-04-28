@@ -132,6 +132,6 @@ app.patch("/usuarios/:id/transferir", (req, res) => {
   
 });
 
-app.listen(3030, () => {
-  console.log("Servidor corriendo en el puerto 3030");
+app.listen(3000, () => {
+  console.log("Servidor corriendo en el puerto 3000");
 });

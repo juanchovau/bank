@@ -88,63 +88,113 @@
   margin-left: 16rem;
   display: grid;
 }
-#imgLogin :nth-child(1){
-    margin-top: 10rem;
-    margin-left: 17rem;
+#imgLogin :nth-child(1) {
+  margin-top: 10rem;
+  margin-left: 17rem;
 }
-#imgLogin :nth-child(2){
-    margin-top: -1rem;
-    margin-left: 2rem;
+#imgLogin :nth-child(2) {
+  margin-top: -1rem;
+  margin-left: 2rem;
 }
-#login-logopq { 
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 1rem;
-    margin-left: 27rem;
+#login-logopq {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 1rem;
+  margin-left: 27rem;
 }
-#formularioLogin{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding: 7rem;
-   
-}
-
-#formularioLogin p{
-    font-family: "Rosario", sans-serif;
-    font-size: 85px;
-    color: #50555C;
-}
-#inputlogin{
-    margin-top: 5rem;
-    padding-right: 12rem;
-    display: flex;
-    flex-direction: column;
-}
-#inputlogin input{
-    margin-top: 2rem;
-    height: 42px;
-    border-bottom: solid #18A0FB 4px ;
-    color: #50555C;
-    font-family: "Rosario", sans-serif;
-    font-size: 36px;
-}
-#inputlogin input::placeholder{
-   color: #50555C;
-   font-family: "Rosario", sans-serif;
-   font-size: 36px;
+#formularioLogin {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 7rem;
 }
 
-#inputlogin button{
-    color:white;
-    font-family: "Rosario", sans-serif;
-    font-size: 36px;
-    background: #235093;
-    width: 288px;
-    height: 69px;
-    margin-top: 4rem;
-    margin-left: auto;
- }
+#formularioLogin p {
+  font-family: "Rosario", sans-serif;
+  font-size: 85px;
+  color: #50555c;
+}
+#inputlogin {
+  margin-top: 5rem;
+  padding-right: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+#inputlogin input {
+  margin-top: 2rem;
+  height: 42px;
+  border-bottom: solid #18a0fb 4px;
+  color: #50555c;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+}
+#inputlogin input::placeholder {
+  color: #50555c;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+}
+
+#inputlogin button {
+  color: white;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+  background: #235093;
+  width: 288px;
+  height: 69px;
+  margin-top: 4rem;
+  margin-left: auto;
+}
+/*user*/
+#hola{
+  font-size: 100px;
+  font-family: "Rosario", sans-serif;
+  color:  #235093;
+}
+#saldo{
+  font-size: 80px;
+  font-family: "Rosario", sans-serif;
+  color:  #235093;
+}
+#espacioTransferencia{
+  background-color: #235093;
+  height: 459px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 48rem;
+}
+#espacioTransferencia p{
+color: white;
+font-size: 70px ;
+font-family: "Rosario", sans-serif;
+
+
+}
+#espacioTransferencia input {
+  margin-top: 2rem;
+  height: 42px;
+  width: 480px;
+  border-bottom: solid #18a0fb 4px;
+  color: white;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+  background: none;
+}
+#espacioTransferencia input::placeholder {
+  color: white;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+}
+#espacioTransferencia button {
+  color: #235093;
+  font-family: "Rosario", sans-serif;
+  font-size: 36px;
+  background: white;
+  width: 288px;
+  height: 69px;
+  margin-top: 4rem;
+/*  margin-left: auto;*/
+}
